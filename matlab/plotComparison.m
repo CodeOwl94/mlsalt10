@@ -1,18 +1,44 @@
-function [] = plotComparison( original, generated, dimension, original_set )
+function [] = plotComparison( utterance, dimension)
 %plotComparison Compare original trajectories against generated
 %trajectories
-%   Given a set of original trajectories and a set of generated
-%   trajectories, plot a single dimension of the set against each other
+%   Given an utterance and dimension, plot out the original trajectory, poe
+%   no GV trajectory, expert GV trajectory and constrained GV trajectory
 
-[~,original_time] = size(original); 
-original_dim = original(dimension*original_set,1:original_time);
+% Obtain the original trajectory
+originalFile = strcat('../original/cmp/utt', int2str(utterance), '.cmp');
+[original,~] = load_htkdata(originalFile);
+original = (original(dimension,:))';
 
-[~,generated_time] = size(generated); 
-generated_dim = generated(dimension,1:generated_time);
+% Path where all generated trajectories are stored
+generatedPath = strcat('../allTraj/traj/utt', int2str(utterance), '/dim', int2str(dimension), '/traj');
+
+% PoE no GV trajectory
+generatedFile = strcat(generatedPath, 'NoGV.txt');
+fileID = fopen(generatedFile);
+generatedNoGV = fscanf(fileID, '%f');
+fclose(fileID);
+
+% PoE Expert GV trajectory
+generatedFile = strcat(generatedPath, 'ExpertGV.txt');
+fileID = fopen(generatedFile);
+generatedExpertGV = fscanf(fileID, '%f');
+fclose(fileID);
+
+% PoE Constraint GV trajectory
+generatedFile = strcat(generatedPath, 'ConstraintGV.txt');
+fileID = fopen(generatedFile);
+generatedConstraintGV = fscanf(fileID, '%f');
+fclose(fileID);
 
 figure;
-plot(1:original_time, original_dim, 1:generated_time, generated_dim)
-legend('Original Trajectories', 'Generated Trajectories')
+plot(original);
+hold on;
+plot(generatedNoGV);
+hold on;
+plot(generatedExpertGV);
+hold on;
+plot(generatedConstraintGV);
+legend('Original Trajectories', 'No GV', 'Expert GV', 'Constraint GV');
 
 
 end
