@@ -6,6 +6,7 @@ import pdb
 import numpy as np
 import os
 import subprocess
+import sys
 
 import generateTrajNoGV as noGV
 import globalVarianceExpert as expertGV
@@ -15,12 +16,12 @@ output = subprocess.check_output(['../bin/x2x', '+da', '../models/hts/gv-mcep.pd
 gvMeanArray = np.array(output.split()[:60]).astype(float)
 gvSigmaArray = np.array(output.split()[60:]).astype(float)
 #sigma_inv_v = np.array([1/val for val in sigma_v]) 
-
+utterance = int(sys.argv[1])
 # Loop over utterances
-for i in range(1,4):#10):
+for i in range(utterance,utterance+1):
     # Loop over dimensions
-    for j in range(1,4):#61):
-        print('Looking at utterance ' + str(i) + ', dimension ' + str(j))
+    for j in range(1,61):
+        #print('Looking at utterance ' + str(i) + ', dimension ' + str(j))
         pathLoc = 'utt'+str(i)+'/dim'+str(j)+'/'
 
         # Generate the trajectories from the model with GV and also obtain the statistics associated with it 
