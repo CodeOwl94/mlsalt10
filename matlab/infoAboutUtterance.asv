@@ -1,0 +1,23 @@
+function [ distances ] = infoAboutUtterance(dimension)
+%compareEachUtterance Compare information across different utterances
+%   Given the datasets, plot the global variances for the given dimension
+%   for the different models considered. 
+%   Also calculate the DTW distances between the different models and the
+%   original trajectory.
+
+histMatrix1 = zeros([9 3]); % Original, POE, HTS
+histMatrix2 = zeros([9 3]); % Original, 
+histMatrix3 = zeros([9 3]);
+
+for ii=1:9 
+    [original,~] = load_htkdata(strcat('../original/cmp/utt',int2str(ii),'.cmp'));
+    original = original(dimension,:);
+    
+    [
+
+end
+
+
+
+end
+
