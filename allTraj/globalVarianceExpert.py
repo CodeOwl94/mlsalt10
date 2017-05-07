@@ -50,14 +50,16 @@ def getGradient(loadedData, trajectory):
 
 def gradientAscent(loadedData, learningRate, stoppingCrit):
     trajectory = loadedData['initial']
-
-    gradientNorm = 1
-    while(gradientNorm>stoppingCrit):
+     
+    counter = 0
+    gradientNorm = 1 
+    while(gradientNorm>stoppingCrit and counter<1000):
         gradient = getGradient(loadedData,trajectory)
         trajectory = trajectory + learningRate*gradient
         
         gradientNorm = np.linalg.norm(gradient)
-
+        
+        counter +=1
     return trajectory
 
 

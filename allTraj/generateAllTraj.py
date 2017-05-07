@@ -10,6 +10,7 @@ import sys
 
 import generateTrajNoGV as noGV
 import globalVarianceExpert as expertGV
+import globalVarianceExpertAlt as expertAltGV
 import globalVarianceConstraint as constraintGV
 
 output = subprocess.check_output(['../bin/x2x', '+da', '../models/hts/gv-mcep.pdf'])
@@ -20,7 +21,7 @@ utterance = int(sys.argv[1])
 # Loop over utterances
 for i in range(utterance,utterance+1):
     # Loop over dimensions
-    for j in range(1,61):
+    for j in range(50,61):
         #print('Looking at utterance ' + str(i) + ', dimension ' + str(j))
         pathLoc = 'utt'+str(i)+'/dim'+str(j)+'/'
 
@@ -44,6 +45,13 @@ for i in range(utterance,utterance+1):
         trajectory = expertGV.gradientAscent(loadedData,0.01,0.1)
         with open('./traj/'+pathLoc+'trajExpertGV.txt','w+') as f:
             np.savetxt(f,trajectory)
+       
+        # Generate the trajectories with GV, using the expert method with alternative initialization
+        loadedData = expertAltGV.loadData(means, meansBar,sigmasBarMatrix, weightMatrix, gvMean, gvSigma)
+        trajectory = expertAltGV.gradientAscent(loadedData,0.01,0.1)
+        with open('./traj/'+pathLoc+'trajExpertAltGV.txt','w+') as f:
+            np.savetxt(f,trajectory)
+
 
         # Generate the trajectories with GV, using the constraint method
         loadedData = constraintGV.loadData(means, sigmasMatrix, gvMean, gvSigma) 
