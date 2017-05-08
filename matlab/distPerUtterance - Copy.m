@@ -1,9 +1,8 @@
-function [ distances ] = infoAboutUtterance(dimension)
+function [] = varPerUtterance( dimension )
 %compareEachUtterance Compare information across different utterances
 %   Given the datasets, plot the global variances for the given dimension
 %   for the different models considered. 
-%   Also calculate the DTW distances between the different models and the
-%   original trajectory.
+close all;
 
 histMatrix1 = zeros([9 3]); % Original, POE, HTS
 histMatrix2 = zeros([9 3]); % Original, ExpGV, ConGV
@@ -34,7 +33,25 @@ for ii=1:9
     
 end
 
+% Plot the results
+bar(histMatrix1);
+xlabel('Utterance');
+ylabel('Variance');
+%ylim([0 1e-3]);
+legend('Original', 'HTS', 'PoE');
 
+figure;
+bar(histMatrix2);
+xlabel('Utterance');
+ylabel('Variance');
+%ylim([0 1e-3]);
+legend('Original', 'Expert GV', 'Constraint GV');
+
+figure;
+bar(histMatrix3);
+xlabel('Utterance');
+ylabel('Variance');
+%ylim([0 1e-3]);
+legend('PoE', 'Expert GV', 'Constraint GV');
 
 end
-
