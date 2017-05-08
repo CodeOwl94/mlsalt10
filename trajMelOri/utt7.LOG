@@ -1,0 +1,210 @@
+./scripts/lab2traj.sh -labdur -hmmdir models/hts -labdir original/lab -outdir traj-dur -filename utt7
+>>>nf=31 30
+>>>nf=22 19
+>>>nf=14 14
+>>>nf=18 15
+>>>nf=15 19
+>>>nf=19 14
+>>>nf=8 7
+>>>nf=25 28
+>>>nf=11 12
+>>>nf=11 15
+>>>nf=16 18
+>>>nf=10 13
+>>>nf=12 8
+>>>nf=8 5
+>>>nf=18 21
+>>>nf=17 10
+>>>nf=25 29
+>>>nf=8 11
+>>>nf=7 6
+>>>nf=12 18
+>>>nf=28 41
+>>>nf=15 22
+>>>nf=13 18
+>>>nf=42 45
+>>>nf=50 73
+>>>nf=53 42
+0.000  #
+    state duration index: 608
+    state:2  #Frames:2  Mcep index:1 logF0 (unvoiced weight 1.00) index:1 Bndap: index1 
+    state:3  #Frames:2  Mcep index:2 logF0 (unvoiced weight 1.00) index:15 Bndap: index1 
+    state:4  #Frames:15  Mcep index:1 logF0 (unvoiced weight 1.00) index:19 Bndap: index3 
+    state:5  #Frames:10  Mcep index:2 logF0 (unvoiced weight 1.00) index:59 Bndap: index7 
+    state:6  #Frames:1  Mcep index:196 logF0 (unvoiced weight 1.00) index:605 Bndap: index98 
+0.150  s
+    state duration index: 827
+    state:2  #Frames:3  Mcep index:80 logF0 (unvoiced weight 1.00) index:44 Bndap: index45 
+    state:3  #Frames:5  Mcep index:138 logF0 (unvoiced weight 0.98) index:343 Bndap: index39 
+    state:4  #Frames:6  Mcep index:109 logF0 (unvoiced weight 1.00) index:620 Bndap: index89 
+    state:5  #Frames:3  Mcep index:29 logF0 (unvoiced weight 1.00) index:110 Bndap: index69 
+    state:6  #Frames:2  Mcep index:9 logF0 (unvoiced weight 1.00) index:3 Bndap: index76 
+0.245  t
+    state duration index: 66
+    state:2  #Frames:4  Mcep index:82 logF0 (unvoiced weight 1.00) index:223 Bndap: index123 
+    state:3  #Frames:3  Mcep index:18 logF0 (unvoiced weight 0.99) index:188 Bndap: index43 
+    state:4  #Frames:2  Mcep index:30 logF0 (unvoiced weight 0.99) index:825 Bndap: index11 
+    state:5  #Frames:3  Mcep index:157 logF0 (unvoiced weight 0.99) index:454 Bndap: index60 
+    state:6  #Frames:2  Mcep index:135 logF0 (unvoiced weight 0.77) index:599 Bndap: index119 
+0.315  Q
+    state duration index: 331
+    state:2  #Frames:3  Mcep index:190 logF0 (voiced weight 0.99) index:563 Bndap: index32 
+    state:3  #Frames:3  Mcep index:113 logF0 (voiced weight 1.00) index:1118 Bndap: index105 
+    state:4  #Frames:3  Mcep index:124 logF0 (voiced weight 1.00) index:476 Bndap: index95 
+    state:5  #Frames:4  Mcep index:106 logF0 (voiced weight 1.00) index:514 Bndap: index84 
+    state:6  #Frames:2  Mcep index:206 logF0 (voiced weight 0.99) index:561 Bndap: index135 
+0.390  p
+    state duration index: 5
+    state:2  #Frames:6  Mcep index:249 logF0 (voiced weight 0.50) index:220 Bndap: index55 
+    state:3  #Frames:7  Mcep index:108 logF0 (unvoiced weight 0.99) index:1170 Bndap: index128 
+    state:4  #Frames:2  Mcep index:3 logF0 (unvoiced weight 0.99) index:829 Bndap: index2 
+    state:5  #Frames:3  Mcep index:145 logF0 (unvoiced weight 0.95) index:357 Bndap: index1 
+    state:6  #Frames:1  Mcep index:33 logF0 (unvoiced weight 0.82) index:272 Bndap: index163 
+0.485  w
+    state duration index: 355
+    state:2  #Frames:4  Mcep index:198 logF0 (unvoiced weight 0.92) index:18 Bndap: index183 
+    state:3  #Frames:3  Mcep index:155 logF0 (voiced weight 0.95) index:184 Bndap: index136 
+    state:4  #Frames:3  Mcep index:122 logF0 (voiced weight 1.00) index:467 Bndap: index64 
+    state:5  #Frames:2  Mcep index:68 logF0 (voiced weight 0.97) index:586 Bndap: index30 
+    state:6  #Frames:2  Mcep index:31 logF0 (voiced weight 1.00) index:145 Bndap: index123 
+0.555  I
+    state duration index: 525
+    state:2  #Frames:2  Mcep index:67 logF0 (voiced weight 1.00) index:50 Bndap: index80 
+    state:3  #Frames:2  Mcep index:117 logF0 (voiced weight 1.00) index:118 Bndap: index116 
+    state:4  #Frames:1  Mcep index:42 logF0 (voiced weight 1.00) index:250 Bndap: index55 
+    state:5  #Frames:1  Mcep index:82 logF0 (voiced weight 1.00) index:193 Bndap: index133 
+    state:6  #Frames:1  Mcep index:96 logF0 (voiced weight 1.00) index:646 Bndap: index20 
+0.590  s
+    state duration index: 203
+    state:2  #Frames:3  Mcep index:274 logF0 (voiced weight 0.94) index:145 Bndap: index169 
+    state:3  #Frames:4  Mcep index:175 logF0 (unvoiced weight 0.98) index:343 Bndap: index38 
+    state:4  #Frames:11  Mcep index:163 logF0 (unvoiced weight 1.00) index:620 Bndap: index88 
+    state:5  #Frames:7  Mcep index:29 logF0 (unvoiced weight 1.00) index:110 Bndap: index69 
+    state:6  #Frames:3  Mcep index:116 logF0 (unvoiced weight 0.58) index:17 Bndap: index162 
+0.730  l!
+    state duration index: 497
+    state:2  #Frames:3  Mcep index:53 logF0 (voiced weight 0.97) index:233 Bndap: index14 
+    state:3  #Frames:2  Mcep index:144 logF0 (voiced weight 1.00) index:349 Bndap: index145 
+    state:4  #Frames:3  Mcep index:79 logF0 (voiced weight 1.00) index:40 Bndap: index172 
+    state:5  #Frames:1  Mcep index:16 logF0 (voiced weight 0.80) index:477 Bndap: index14 
+    state:6  #Frames:3  Mcep index:146 logF0 (voiced weight 0.99) index:313 Bndap: index102 
+0.790  I
+    state duration index: 875
+    state:2  #Frames:4  Mcep index:39 logF0 (voiced weight 0.99) index:350 Bndap: index157 
+    state:3  #Frames:6  Mcep index:61 logF0 (voiced weight 1.00) index:224 Bndap: index200 
+    state:4  #Frames:1  Mcep index:66 logF0 (voiced weight 1.00) index:806 Bndap: index53 
+    state:5  #Frames:3  Mcep index:83 logF0 (voiced weight 0.99) index:205 Bndap: index126 
+    state:6  #Frames:1  Mcep index:65 logF0 (voiced weight 0.96) index:486 Bndap: index128 
+0.865  N
+    state duration index: 903
+    state:2  #Frames:3  Mcep index:54 logF0 (voiced weight 1.00) index:508 Bndap: index112 
+    state:3  #Frames:4  Mcep index:105 logF0 (voiced weight 1.00) index:787 Bndap: index179 
+    state:4  #Frames:7  Mcep index:161 logF0 (voiced weight 1.00) index:625 Bndap: index98 
+    state:5  #Frames:2  Mcep index:43 logF0 (voiced weight 1.00) index:25 Bndap: index139 
+    state:6  #Frames:2  Mcep index:192 logF0 (voiced weight 0.99) index:559 Bndap: index152 
+0.955  a
+    state duration index: 945
+    state:2  #Frames:3  Mcep index:237 logF0 (voiced weight 1.00) index:707 Bndap: index16 
+    state:3  #Frames:2  Mcep index:77 logF0 (voiced weight 1.00) index:79 Bndap: index5 
+    state:4  #Frames:4  Mcep index:98 logF0 (voiced weight 1.00) index:701 Bndap: index60 
+    state:5  #Frames:3  Mcep index:62 logF0 (voiced weight 0.95) index:16 Bndap: index74 
+    state:6  #Frames:1  Mcep index:19 logF0 (voiced weight 0.97) index:78 Bndap: index9 
+1.020  n
+    state duration index: 682
+    state:2  #Frames:2  Mcep index:101 logF0 (voiced weight 1.00) index:191 Bndap: index135 
+    state:3  #Frames:3  Mcep index:118 logF0 (voiced weight 1.00) index:1191 Bndap: index182 
+    state:4  #Frames:1  Mcep index:113 logF0 (voiced weight 0.99) index:76 Bndap: index44 
+    state:5  #Frames:1  Mcep index:86 logF0 (voiced weight 0.99) index:5 Bndap: index118 
+    state:6  #Frames:1  Mcep index:10 logF0 (voiced weight 0.89) index:303 Bndap: index147 
+1.060  d
+    state duration index: 1100
+    state:2  #Frames:1  Mcep index:68 logF0 (voiced weight 0.80) index:190 Bndap: index24 
+    state:3  #Frames:1  Mcep index:82 logF0 (voiced weight 0.80) index:476 Bndap: index77 
+    state:4  #Frames:1  Mcep index:144 logF0 (voiced weight 0.65) index:341 Bndap: index93 
+    state:5  #Frames:1  Mcep index:38 logF0 (voiced weight 0.74) index:55 Bndap: index79 
+    state:6  #Frames:1  Mcep index:46 logF0 (voiced weight 0.51) index:43 Bndap: index11 
+1.085  w
+    state duration index: 355
+    state:2  #Frames:6  Mcep index:260 logF0 (voiced weight 0.99) index:329 Bndap: index137 
+    state:3  #Frames:5  Mcep index:234 logF0 (voiced weight 0.52) index:351 Bndap: index193 
+    state:4  #Frames:3  Mcep index:122 logF0 (voiced weight 1.00) index:75 Bndap: index58 
+    state:5  #Frames:5  Mcep index:56 logF0 (voiced weight 1.00) index:155 Bndap: index33 
+    state:6  #Frames:2  Mcep index:85 logF0 (voiced weight 1.00) index:347 Bndap: index123 
+1.190  Q
+    state duration index: 467
+    state:2  #Frames:2  Mcep index:144 logF0 (voiced weight 1.00) index:597 Bndap: index80 
+    state:3  #Frames:1  Mcep index:252 logF0 (voiced weight 1.00) index:914 Bndap: index73 
+    state:4  #Frames:4  Mcep index:125 logF0 (voiced weight 1.00) index:607 Bndap: index62 
+    state:5  #Frames:1  Mcep index:106 logF0 (voiced weight 1.00) index:277 Bndap: index107 
+    state:6  #Frames:2  Mcep index:206 logF0 (voiced weight 0.99) index:666 Bndap: index99 
+1.240  tS
+    state duration index: 315
+    state:2  #Frames:5  Mcep index:249 logF0 (unvoiced weight 0.54) index:639 Bndap: index39 
+    state:3  #Frames:7  Mcep index:1 logF0 (unvoiced weight 0.99) index:1170 Bndap: index90 
+    state:4  #Frames:10  Mcep index:137 logF0 (unvoiced weight 1.00) index:620 Bndap: index27 
+    state:5  #Frames:1  Mcep index:79 logF0 (unvoiced weight 1.00) index:95 Bndap: index27 
+    state:6  #Frames:6  Mcep index:34 logF0 (unvoiced weight 0.99) index:18 Bndap: index163 
+1.385  D
+    state duration index: 487
+    state:2  #Frames:3  Mcep index:131 logF0 (unvoiced weight 0.91) index:197 Bndap: index150 
+    state:3  #Frames:3  Mcep index:111 logF0 (unvoiced weight 0.97) index:681 Bndap: index162 
+    state:4  #Frames:1  Mcep index:120 logF0 (unvoiced weight 0.79) index:54 Bndap: index110 
+    state:5  #Frames:3  Mcep index:58 logF0 (voiced weight 0.83) index:603 Bndap: index116 
+    state:6  #Frames:1  Mcep index:160 logF0 (voiced weight 1.00) index:678 Bndap: index117 
+1.440  @
+    state duration index: 1042
+    state:2  #Frames:1  Mcep index:35 logF0 (voiced weight 1.00) index:624 Bndap: index176 
+    state:3  #Frames:2  Mcep index:28 logF0 (voiced weight 1.00) index:479 Bndap: index94 
+    state:4  #Frames:1  Mcep index:56 logF0 (voiced weight 0.99) index:91 Bndap: index161 
+    state:5  #Frames:1  Mcep index:99 logF0 (voiced weight 0.98) index:231 Bndap: index20 
+    state:6  #Frames:1  Mcep index:53 logF0 (voiced weight 0.97) index:618 Bndap: index136 
+1.470  b
+    state duration index: 249
+    state:2  #Frames:6  Mcep index:9 logF0 (voiced weight 0.99) index:537 Bndap: index75 
+    state:3  #Frames:5  Mcep index:136 logF0 (unvoiced weight 0.67) index:337 Bndap: index72 
+    state:4  #Frames:3  Mcep index:60 logF0 (unvoiced weight 0.63) index:809 Bndap: index5 
+    state:5  #Frames:1  Mcep index:28 logF0 (unvoiced weight 0.60) index:561 Bndap: index112 
+    state:6  #Frames:3  Mcep index:90 logF0 (voiced weight 0.86) index:673 Bndap: index18 
+1.560  OI
+    state duration index: 505
+    state:2  #Frames:6  Mcep index:259 logF0 (voiced weight 1.00) index:115 Bndap: index184 
+    state:3  #Frames:17  Mcep index:328 logF0 (voiced weight 1.00) index:302 Bndap: index156 
+    state:4  #Frames:11  Mcep index:9 logF0 (voiced weight 1.00) index:760 Bndap: index101 
+    state:5  #Frames:4  Mcep index:123 logF0 (voiced weight 1.00) index:654 Bndap: index93 
+    state:6  #Frames:3  Mcep index:118 logF0 (voiced weight 0.99) index:492 Bndap: index156 
+1.765  z
+    state duration index: 731
+    state:2  #Frames:6  Mcep index:230 logF0 (voiced weight 1.00) index:495 Bndap: index198 
+    state:3  #Frames:4  Mcep index:181 logF0 (voiced weight 0.70) index:173 Bndap: index19 
+    state:4  #Frames:3  Mcep index:74 logF0 (voiced weight 0.62) index:721 Bndap: index154 
+    state:5  #Frames:6  Mcep index:73 logF0 (unvoiced weight 0.93) index:349 Bndap: index100 
+    state:6  #Frames:3  Mcep index:45 logF0 (unvoiced weight 0.93) index:647 Bndap: index11 
+1.875  m
+    state duration index: 1054
+    state:2  #Frames:6  Mcep index:323 logF0 (unvoiced weight 0.66) index:244 Bndap: index136 
+    state:3  #Frames:4  Mcep index:23 logF0 (voiced weight 0.99) index:1085 Bndap: index194 
+    state:4  #Frames:2  Mcep index:105 logF0 (voiced weight 1.00) index:560 Bndap: index116 
+    state:5  #Frames:3  Mcep index:70 logF0 (voiced weight 1.00) index:42 Bndap: index87 
+    state:6  #Frames:3  Mcep index:92 logF0 (voiced weight 1.00) index:431 Bndap: index55 
+1.965  A
+    state duration index: 1034
+    state:2  #Frames:3  Mcep index:156 logF0 (voiced weight 1.00) index:184 Bndap: index74 
+    state:3  #Frames:5  Mcep index:50 logF0 (voiced weight 1.00) index:1194 Bndap: index30 
+    state:4  #Frames:7  Mcep index:123 logF0 (voiced weight 1.00) index:142 Bndap: index122 
+    state:5  #Frames:24  Mcep index:159 logF0 (voiced weight 1.00) index:220 Bndap: index81 
+    state:6  #Frames:6  Mcep index:152 logF0 (voiced weight 1.00) index:442 Bndap: index175 
+2.190  tS
+    state duration index: 255
+    state:2  #Frames:12  Mcep index:248 logF0 (unvoiced weight 0.54) index:639 Bndap: index39 
+    state:3  #Frames:22  Mcep index:1 logF0 (unvoiced weight 1.00) index:1169 Bndap: index68 
+    state:4  #Frames:14  Mcep index:137 logF0 (unvoiced weight 1.00) index:620 Bndap: index15 
+    state:5  #Frames:3  Mcep index:79 logF0 (unvoiced weight 1.00) index:11 Bndap: index27 
+    state:6  #Frames:22  Mcep index:36 logF0 (unvoiced weight 0.99) index:2 Bndap: index42 
+2.555  #
+    state duration index: 79
+    state:2  #Frames:6  Mcep index:293 logF0 (unvoiced weight 1.00) index:1 Bndap: index142 
+    state:3  #Frames:10  Mcep index:46 logF0 (unvoiced weight 1.00) index:16 Bndap: index48 
+    state:4  #Frames:2  Mcep index:4 logF0 (unvoiced weight 1.00) index:34 Bndap: index32 
+    state:5  #Frames:22  Mcep index:1 logF0 (unvoiced weight 1.00) index:58 Bndap: index5 
+    state:6  #Frames:2  Mcep index:1 logF0 (unvoiced weight 1.00) index:605 Bndap: index1 
+V/UV modifed frames: 7 voiced frame: 276 total frame:553

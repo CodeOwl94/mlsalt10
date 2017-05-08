@@ -1,0 +1,8 @@
+./scripts/traj2wav.sh -trajdir trajAperOri -outdir wavAper -filename utt1
+Spectral analysis method: Mel-cepstral analysis
+read F0[548]
+read spectrum[548][513]
+read aperiodic energy[548][21]
+    === STRAIGHT synthesis (graded excitation) ===
+straight synthesis done
+write wave: wavAper/utt1.wav
